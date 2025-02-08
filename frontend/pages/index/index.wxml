@@ -20,6 +20,10 @@
         <text class="userinfo-nickname">{{userInfo.nickName}}</text>
       </block>
     </view>
+    
+    <button bindtap="getData">获取数据</button>
+    <text>{{responseData}}</text>
+
     <view class="usermotto">
       <text class="user-motto">{{motto}}</text>
     </view>
