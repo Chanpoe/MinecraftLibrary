@@ -1,5 +1,5 @@
 // index.js
-const defaultAvatarUrl = 'https://mmbiz.qpic.cn/mmbiz/icTdbqWNOwNRna42FI242Lcia07jQodd2FJGIYQfG0LAJGFxM4FbnQP6yfMxBgJ0F3YRqJCJ1aPAK2dQagdusBZg/0'
+const defaultAvatarUrl ="https://image-bed.obs.cn-north-4.myhuaweicloud.com/logo.png"
 
 Page({
   data: {
@@ -12,6 +12,26 @@ Page({
     canIUseGetUserProfile: wx.canIUse('getUserProfile'),
     canIUseNicknameComp: wx.canIUse('input.type.nickname'),
     responseData: "" // 存储从后端获取的数据
+  },
+  // 点击按钮时触发的函数
+  getData: function() {
+    wx.request({
+      url: 'http://192.168.3.16:5050/',  // 后端接口地址
+      method: 'GET',  // 请求方式
+      success: (res) => {
+        // 请求成功时的回调
+        this.setData({
+          responseData: res.data  // 将返回的数据存储到data中，更新页面
+        });
+      },
+      fail: (err) => {
+        // 请求失败时的回调
+        console.error("请求失败", err);
+        this.setData({
+          responseData: "请求失败"  // 请求失败时的提示
+        });
+      }
+    });
   },
   bindViewTap() {
     wx.navigateTo({
@@ -47,24 +67,5 @@ Page({
       }
     })
   },
-    // 点击按钮时触发的函数
-  getData: function() {
-    wx.request({
-      url: 'http://127.0.0.1:5050/',  // 后端接口地址
-      method: 'GET',  // 请求方式
-      success: (res) => {
-        // 请求成功时的回调
-        this.setData({
-          responseData: res.data  // 将返回的数据存储到data中，更新页面
-        });
-      },
-      fail: (err) => {
-        // 请求失败时的回调
-        console.error("请求失败", err);
-        this.setData({
-          responseData: "请求失败"  // 请求失败时的提示
-        });
-      }
-    });
-  },
+  
 })
