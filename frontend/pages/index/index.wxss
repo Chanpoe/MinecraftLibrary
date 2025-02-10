@@ -8,6 +8,11 @@
   padding: 20rpx 0;
 }
 
+.desc-container {
+  width: 100%;
+  margin-left: 30px;
+}
+
 .row {
   display: flex;
   justify-content: space-between;
@@ -19,17 +24,16 @@
   width: 30%; /* 每行3列，确保均分 */
 }
 
+.item-text {
+  text-align: center;
+}
+
 .image {
   width: 100px;
   height: 100px;
   object-fit: cover; /* 按比例拉伸填充 */
   border-radius: 8rpx; /* 可选 */
   display: flex;
-}
-
-.desc text {
-  width: 90%; /* 让“玩法介绍”与 row 宽度一致 */
-  margin-left: 5%; /* 让它左对齐 row */
 }
 
 .container2 view {
@@ -43,10 +47,7 @@
 .desc {
   font-size: 20px; /* 设置字体大小 */
   font-weight: bold; /* 字体加粗 */
-  margin-left: 0; /* 取消默认外边距 */
-  padding-left: 15px; /* 设置左侧内边距，与 .container1 的间距保持一致 */
-  text-align: left; /* 确保文字左对齐 */
-  padding-top: 50px; 
+  padding-top: 20px; 
 }
 
 
@@ -81,6 +82,20 @@
   justify-content: space-around;
   flex-direction: row;
 }
+
+.header-image {
+  width: 100%; /* 图片宽度占满屏幕 */
+  height: auto; /* 自动调整高度以保持比例 */
+  display: block; /* 去掉图片底部间隙 */
+}
+
+.header {
+  width: 100%;
+  height: auto; /* 根据图片内容调整 */
+  margin: 0;
+  padding: 0;
+}
+
 
 .header-image {
   width: 100%; /* 图片宽度占满屏幕 */

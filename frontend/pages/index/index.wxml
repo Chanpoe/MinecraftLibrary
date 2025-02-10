@@ -6,13 +6,17 @@
 
 
 <view class="container">
-  <view style="margin-top: 20px;">
-    <text class="desc" style="position: relative; left: -295rpx; top: -1rpx">玩法介绍</text>
+  <view class="desc-container">
+    <view class="desc">
+      <text>玩法介绍</text>
+    </view>
   </view>
   <view class="row">
     <navigator url="/pages/pageA/index" class="item">
       <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
-      <text style="position: relative; left: 35rpx; top: 1rpx">红石玩法</text>
+      <view class="item-text">
+        <text>红石玩法</text>
+      </view>
     </navigator>
     <navigator url="/pages/pageB/index" class="item">
       <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
@@ -35,13 +39,15 @@
 </view>
 
 <view class="container">
-  <view style="margin-top: 20px;">
-    <text class="desc" style="position: relative; left: -320rpx; top: 1rpx">功能</text>
+  <view class="desc-container">
+    <view class="desc">
+      <text>功能</text>
+    </view>
   </view>
   <view class="row">
     <navigator url="/pages/pageA/index" class="item">
       <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
-      <text style="position: relative; left: 35rpx; top: 1rpx">1.21</text>
+      <text class="item-text"></text>
     </navigator>
     <navigator url="/pages/pageB/index" class="item">
       <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
@@ -64,14 +70,17 @@
 </view>
 
 <view class="container">
-  <view style="margin-top: 20px;">
-    <text class="desc" style="position: relative; left: -250rpx; top: -1rpx">版本更新内容</text>
+  <view class="desc-container">
+    <view class="desc">
+      <text>版本更新内容</text>
+    </view>
   </view>
   <view>
-    <navigator url="" style="text-decoration: underline;">1.21</navigator>
-    <navigator url="" >1.20</navigator>
+    <navigator url="" class="underline-text">1.21</navigator>
+    <navigator url="">1.20</navigator>
   </view>
 </view>
+
 
   <!-- <view class="container2" id="game-intro">
     <view>D</view>
