@@ -5,7 +5,82 @@
 </view>
 
 
-<view>
+<view class="container">
+  <view style="margin-top: 20px;">
+    <text class="desc" style="position: relative; left: -295rpx; top: -1rpx">玩法介绍</text>
+  </view>
+  <view class="row">
+    <navigator url="/pages/pageA/index" class="item">
+      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+      <text style="position: relative; left: 35rpx; top: 1rpx">红石玩法</text>
+    </navigator>
+    <navigator url="/pages/pageB/index" class="item">
+      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+    </navigator>
+    <navigator url="/pages/pageC/index" class="item">
+      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+    </navigator>
+  </view>
+  <view class="row">
+    <navigator url="/pages/pageD/index" class="item">
+      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+    </navigator>
+    <navigator url="/pages/pageE/index" class="item">
+      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+    </navigator>
+    <navigator url="/pages/pageF/index" class="item">
+      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+    </navigator>
+  </view>
+</view>
+
+<view class="container">
+  <view style="margin-top: 20px;">
+    <text class="desc" style="position: relative; left: -320rpx; top: 1rpx">功能</text>
+  </view>
+  <view class="row">
+    <navigator url="/pages/pageA/index" class="item">
+      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+      <text style="position: relative; left: 35rpx; top: 1rpx">1.21</text>
+    </navigator>
+    <navigator url="/pages/pageB/index" class="item">
+      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+    </navigator>
+    <navigator url="/pages/pageC/index" class="item">
+      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+    </navigator>
+  </view>
+  <view class="row">
+    <navigator url="/pages/pageD/index" class="item">
+      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+    </navigator>
+    <navigator url="/pages/pageE/index" class="item">
+      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+    </navigator>
+    <navigator url="/pages/pageF/index" class="item">
+      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+    </navigator>
+  </view>
+</view>
+
+<view class="container">
+  <view style="margin-top: 20px;">
+    <text class="desc" style="position: relative; left: -250rpx; top: -1rpx">版本更新内容</text>
+  </view>
+  <view>
+    <navigator url="" style="text-decoration: underline;">1.21</navigator>
+    <navigator url="" >1.20</navigator>
+  </view>
+</view>
+
+  <!-- <view class="container2" id="game-intro">
+    <view>D</view>
+    <view>E</view>
+    <view>F</view>
+  </view> -->
+<!-- </view> -->
+
+<!-- <view>
   <view style="margin-top: 50px;">
     <text class="desc">玩法介绍</text>
   </view>
@@ -20,21 +95,4 @@
     <view>E</view>
     <view>F</view>
   </view>
-</view>
-
-<view>
-  <view style="margin-top: 50px;">
-    <text class="desc">玩法介绍</text>
-  </view>
-  <view class="container1" id="game-intro">
-    <view>A</view>
-    <view>B</view>
-    <view>C</view>
-  </view>
-
-  <view class="container2" id="game-intro">
-    <view>D</view>
-    <view>E</view>
-    <view>F</view>
-  </view>
-</view>
+</view> -->
