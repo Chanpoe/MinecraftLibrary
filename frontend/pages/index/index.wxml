@@ -12,28 +12,28 @@
     </view>
   </view>
   <view class="row">
-    <navigator url="/pages/pageA/index" class="item">
-      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+    <navigator url="/pages/redstone/redstone" class="item">
+      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
       <view class="item-text">
         <text>红石玩法</text>
       </view>
     </navigator>
     <navigator url="/pages/pageB/index" class="item">
-      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
     </navigator>
     <navigator url="/pages/pageC/index" class="item">
-      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
     </navigator>
   </view>
   <view class="row">
     <navigator url="/pages/pageD/index" class="item">
-      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
     </navigator>
     <navigator url="/pages/pageE/index" class="item">
-      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
     </navigator>
     <navigator url="/pages/pageF/index" class="item">
-      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
     </navigator>
   </view>
 </view>
@@ -46,25 +46,25 @@
   </view>
   <view class="row">
     <navigator url="/pages/pageA/index" class="item">
-      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
       <text class="item-text"></text>
     </navigator>
     <navigator url="/pages/pageB/index" class="item">
-      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
     </navigator>
     <navigator url="/pages/pageC/index" class="item">
-      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
     </navigator>
   </view>
   <view class="row">
     <navigator url="/pages/pageD/index" class="item">
-      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
     </navigator>
     <navigator url="/pages/pageE/index" class="item">
-      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
     </navigator>
     <navigator url="/pages/pageF/index" class="item">
-      <image src="https://zh.minecraft.wiki/images/Invicon_Redstone.png?6dae4" class="image"></image>
+      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
     </navigator>
   </view>
 </view>
