@@ -1,8 +1,31 @@
 <!--index.wxml-->
 <!-- <text>index.wxml</text> -->
-<view class="header">
+<!-- <view class="header">
   <image class="header-image" src="https://pub-c2c1d9230f0b4abb9b0d2d95e06fd4ef.r2.dev/sites/44/2024/05/1-1.jpg" mode="widthFix"></image>
-</view>
+</view> -->
+
+<!-- <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{background}}" wx:key="*this">
+    <swiper-item>
+      <view class="swiper-item {{item}}"></view>
+    </swiper-item>
+  </block>
+</swiper> -->
+
+<swiper class="swiper-container" indicator-dots="true" indicator-active-color="gray" autoplay="true" circular="true">
+  <swiper-item>
+    <view>
+      <image class="header-image" src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/20250212231917.png" mode="widthFix"></image>
+    </view>
+  </swiper-item>
+
+  <swiper-item>
+    <view>
+      <image class="header-image" src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/20250212232020.png" mode="widthFix"></image>
+    </view>
+  </swiper-item>
+</swiper>
 
 
 <view class="container">
