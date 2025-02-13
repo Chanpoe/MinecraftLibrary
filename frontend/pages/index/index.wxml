@@ -36,27 +36,22 @@
   </view>
   <view class="row">
     <navigator url="/pages/redstone/redstone" class="item">
-      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
+      <image src="https://minecraft.wiki/images/thumb/Redstone_Dust_JE2_BE2.png/150px-Redstone_Dust_JE2_BE2.png?8cf17" class="image"></image>
       <view class="item-text">
         <text>红石玩法</text>
       </view>
     </navigator>
-    <navigator url="/pages/pageB/index" class="item">
-      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
-    </navigator>
     <navigator url="/pages/pageC/index" class="item">
-      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
+      <image src="https://zh.minecraft.wiki/images/thumb/Emerald_JE3_BE3.png/150px-Emerald_JE3_BE3.png?e2a41" class="image"></image>
+      <view class="item-text">
+        <text>交易</text>
+      </view>
     </navigator>
-  </view>
-  <view class="row">
-    <navigator url="/pages/pageD/index" class="item">
-      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
-    </navigator>
-    <navigator url="/pages/pageE/index" class="item">
-      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
-    </navigator>
-    <navigator url="/pages/pageF/index" class="item">
-      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
+    <navigator url="/pages/pageB/index" class="item">
+      <image src="https://zh.minecraft.wiki/images/thumb/Water_Bottle_JE2_BE3.png/150px-Water_Bottle_JE2_BE3.png?63599" class="image"></image>
+      <view class="item-text">
+        <text>炼药</text>
+      </view>
     </navigator>
   </view>
 </view>
@@ -69,25 +64,16 @@
   </view>
   <view class="row">
     <navigator url="/pages/pageA/index" class="item">
-      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
-      <text class="item-text"></text>
+      <image src="https://zh.minecraft.wiki/images/thumb/Crafting_Table_JE4_BE3.png/150px-Crafting_Table_JE4_BE3.png?738c8" class="image"></image>
+      <view class="item-text">
+        <text>合成</text>
+      </view>
     </navigator>
     <navigator url="/pages/pageB/index" class="item">
-      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
+      <image src="" class="image"></image>
     </navigator>
     <navigator url="/pages/pageC/index" class="item">
-      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
-    </navigator>
-  </view>
-  <view class="row">
-    <navigator url="/pages/pageD/index" class="item">
-      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
-    </navigator>
-    <navigator url="/pages/pageE/index" class="item">
-      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
-    </navigator>
-    <navigator url="/pages/pageF/index" class="item">
-      <image src="https://image-bed.obs.cn-north-4.myhuaweicloud.com/Invicon_Redstone.png" class="image"></image>
+      <image src="" class="image"></image>
     </navigator>
   </view>
 </view>
@@ -99,7 +85,7 @@
     </view>
   </view>
   <view>
-    <navigator url="" class="underline-text">1.21</navigator>
+    <navigator url="">1.21</navigator>
     <navigator url="">1.20</navigator>
   </view>
 </view>

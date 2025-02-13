@@ -1,2 +1,2 @@
 <!--pages/redstone/redstone.wxml-->
-<text>test</text>
+<image src="https://zh.minecraft.wiki/images/Redstone_wire_as_circuit_component.png?3135b" mode="widthFix" class="image"/>

@@ -1,1 +1,5 @@
 /* pages/redstone/redstone.wxss */
+
+.image {
+  width: 100%;
+}
