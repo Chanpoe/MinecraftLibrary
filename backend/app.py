@@ -1,4 +1,5 @@
-from flask import Flask
+from flask import Flask,jsonify
+from Controller.DatabaseController import *
 
 app = Flask(__name__)
 
@@ -6,6 +7,14 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():  # put application's code here
     return 'Hello World!'
+
+@app.route("/get_redstone/x")
+def get_redstone():
+    output=DatabaseController().get_item("redstone","x")
+    print("request for x")
+    print(output)
+    return jsonify(output)
+
 
 
 if __name__ == '__main__':
